@@ -4,9 +4,9 @@ ini_set('display_errors', 1);
 ini_set('log_errors', 1);
 ini_set('error_log', __DIR__ . '/php-error.log');
 
-define("IIKO_HOST", "https://merezha-maf-ya-ki-v-chain.syrve.online");
-define("LOGIN", "onix");
-define("PASSWORD_SHA1", "feda91273b9603ae18d503892ff1ee54d28b8731");
+define("IIKO_HOST", "");
+define("LOGIN", "");
+define("PASSWORD_SHA1", "");
 
 function iikoLogin(): ?string
 {
